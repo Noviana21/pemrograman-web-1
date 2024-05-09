@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title> Box </title>
+
+        <link rel="stylesheet" href="nomor8.css" />
+    </head>
+
+    <body>
+        <main>
+            <div class = "kotak">
+                <div class = "kotak1">
+                    <h1>Pendaftaran Kursus</h1>
+                </div>
+                
+                <div class = "kotak2">
+                    <h2>Data Diri</h2>
+                    <table>
+                        <tr>
+                            <td>
+                                Nama 
+                            </td>
+                            <td>
+                                <input type = "text" name = "nama">
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                Nim 
+                            </td>
+                            <td>
+                                <input type="text" name="nim" value="" maxlength="15" size="15">
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                E-mail
+                            </td>
+                            <td>
+                                <input type = "text" name = "email">
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                Tanggal Lahir
+                            </td>
+                            <td>
+                                <textarea name = "deskripsi" cols = "20" rows = "1"> hh/bb/tttt </textarea>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td style = "vertical-align: top;">
+                                Jenis Kelamin 
+                            </td>
+                            <td>
+                                <input type = "radio" name = "jenis_kelamin" value = "L"> Laki - Laki
+                                <br>
+                                <input type = "radio" name = "jenis_kelamin" value = "P"> Perempuan
+                            </td>
+                        </tr> 
+    
+                        <tr>
+                            <td style = "vertical-align: top;">
+                                Pilih Program Kursus
+                            </td>
+                            <td>
+                                <input type = "checkbox" name = "kursus_1" value = "c_pagar"> C#
+                                <br>
+                                <input type = "checkbox" name = "kursus_2" value = "java"> Java
+                                <br>
+                                <input type = "checkbox" name = "kursus_3" value = "sql"> SQL
+                                <br>
+                                <input type = "checkbox" name = "kursus_4" value = "html_php"> HTML dan PHP
+                                <br>
+                            </td>
+                        </tr> 
+    
+                        <tr>
+                            <td>
+                                Pilihan Hari atau Jam Kursus
+                            </td>
+                            <td>
+                                <select name = "hari">
+                                    <option value = "satu"> Senin - Rabu/09.00 - 11.00 </option>
+                                    <option value = "dua"> Kamis - Jum'at/09.00 - 11.00 </option>
+                                    <option value = "tiga"> Minggu/14.00 - 16.00 </option>
+                                    <option value = "empat"> Senin - Selasa/14.00 - 16.00 </option>
+                                    <option value = "lima"> Sabtu/08.00 - 10.00 </option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                </div>
+                
+                <div class = "kotak3">
+                    Komentar Anda
+                    <br>
+                    <textarea name = "deskripsi" cols = "45" rows = "5" align = "center"></textarea>
+                    <br>
+                    <input type = "reset" value = "Reset" name = "Reset">
+                    <input type = "submit" value = "Submit" name = "Submit">
+                    <input type = "button" value = "Cancel" name = "Cancel">
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
